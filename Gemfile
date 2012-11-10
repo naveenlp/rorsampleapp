@@ -9,6 +9,7 @@ group :development, :test do
   gem 'spork', '0.9.2'
   gem 'rspec-rails', '2.11.0'
   gem 'annotate'
+  gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
