@@ -5,11 +5,16 @@
         <%= render 'shared/user_info' %>
       </section>
       <section>
+        <%= render 'shared/stats' %>
+      </section>
+      <section>
         <%= render 'shared/micropost_form' %>
       </section>
     </aside>
-  </div>  
-  <div class="row">
+    <aside>
+
+  </aside>
+  
     <div class="span8">
       <h3>Micropost Feed</h3>
       <%= render 'shared/feed' %>
@@ -17,7 +22,7 @@
   </div> 
   
 
-<%= will_paginate @feed_items %>
+
 <% else %>
   <div class="center hero-unit">
     <h1>Welcome to the Sample App</h1>
